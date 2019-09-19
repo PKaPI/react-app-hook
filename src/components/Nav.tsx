@@ -1,4 +1,5 @@
 import  * as React from 'react';
+import {Button} from 'antd';
 const {useState} = React;
 
 interface IProps {
@@ -9,9 +10,9 @@ const Nav = (props:IProps)=>{
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
+      <Button type="primary" onClick={() => setCount(count + 1)}>
         点击
-      </button>
+      </Button>
        {props.children}
     </div>
   );
