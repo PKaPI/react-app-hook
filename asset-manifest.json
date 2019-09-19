@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-app-hook/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-app-hook/static/js/main.852f51fe.chunk.js",
+    "main.js.map": "/react-app-hook/static/js/main.852f51fe.chunk.js.map",
+    "runtime~main.js": "/react-app-hook/static/js/runtime~main.d466d237.js",
+    "runtime~main.js.map": "/react-app-hook/static/js/runtime~main.d466d237.js.map",
+    "static/css/2.8094cff3.chunk.css": "/react-app-hook/static/css/2.8094cff3.chunk.css",
+    "static/js/2.90790e22.chunk.js": "/react-app-hook/static/js/2.90790e22.chunk.js",
+    "static/js/2.90790e22.chunk.js.map": "/react-app-hook/static/js/2.90790e22.chunk.js.map",
+    "index.html": "/react-app-hook/index.html",
+    "precache-manifest.300f926e5ebe50f30de39c919465c29b.js": "/react-app-hook/precache-manifest.300f926e5ebe50f30de39c919465c29b.js",
+    "service-worker.js": "/react-app-hook/service-worker.js",
+    "static/css/2.8094cff3.chunk.css.map": "/react-app-hook/static/css/2.8094cff3.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-app-hook/static/css/main.5ecd60fb.chunk.css.map"
+  }
+}
