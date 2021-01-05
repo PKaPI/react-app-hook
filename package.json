@@ -23,6 +23,7 @@
     "typescript": "3.6.3"
   },
   "scripts": {
+    "dev": "react-app-rewired start",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build && react-snapshot",
     "test": "react-app-rewired test",
