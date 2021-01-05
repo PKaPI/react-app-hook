@@ -16,6 +16,6 @@ function ChildOne (props: IChildOneProps) {
     </div>
   );
 }
-export default ChildOne
+export default React.memo(ChildOne)
 
 //虽然我们写的是函数组件，但是如果不做处理，父组件更新子组件也会跟着更新

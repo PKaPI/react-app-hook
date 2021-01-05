@@ -5,7 +5,7 @@ export interface IChildOneProps {
 }
 //父组件更新子组件更新
 
-class ChildTwo extends React.Component<any, IChildOneProps> {
+class ChildTwo extends React.PureComponent<any, IChildOneProps> {
   getRandomColor = () => {
     return '#' + ('00000' + (Math.random() * 0x1000000 << 0).toString(16)).substr(-6);
   }
