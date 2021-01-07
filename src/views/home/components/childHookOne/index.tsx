@@ -12,7 +12,7 @@ function ChildOne (props: IChildOneProps) {
   const color:string = getRandomColor();
   return (
     <div className="child-one" style={{width:200,height:200,background:color,textAlign:'center'}}>
-        ChildOne: {color}
+        hook component: {color}
     </div>
   );
 }

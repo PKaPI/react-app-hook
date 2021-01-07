@@ -14,7 +14,7 @@ class ChildTwo extends React.PureComponent<IChildOneProps,any> {
     const color:string = this.getRandomColor();
     return (
       <div className="child-one" style={{ width: 200, height: 200, background: color, textAlign: 'center' }}>
-        ChildTwo: {color}
+        Class component: {color}
       </div>
     );
   }
