@@ -5,7 +5,6 @@ import Home from './views/home';
 import About from './views/about';
 import NoMatch from './views/noMatch';
 import Wrapper from './components/Wrapper'
-import NavLink from './components/NavLink'
 
 const title = 'You Are Doing Great'
 const routes = [
@@ -27,9 +26,6 @@ class App extends React.Component {
       <Router>
         <Wrapper>
           <Helmet titleTemplate={`%s - ${title}`} />
-          {routes.map((route, i) => (
-              <NavLink key={i} {...route} />
-            ))}
           <Switch>
             {routes.map((route, i) => (
               <Route exact key={i} {...route} />

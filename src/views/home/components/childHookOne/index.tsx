@@ -6,13 +6,13 @@ export interface IChildOneProps {
 }
 //父组件更新子组件更新
 function ChildOne (props: IChildOneProps) {
-  const getRandomColor = function(){
+  const getRandomColor = function():string {
     return '#'+('00000'+ (Math.random()*0x1000000<<0).toString(16)).substr(-6); 
   }
-  const color = getRandomColor();
+  const color:string = getRandomColor();
   return (
     <div className="child-one" style={{width:200,height:200,background:color,textAlign:'center'}}>
-        ChildOne: {color}
+        hook component: {color}
     </div>
   );
 }
